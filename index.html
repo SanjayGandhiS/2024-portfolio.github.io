@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="script.js">
+    <title>navigation bar</title> 
+
+       <style>
+        
+        .header {
+ position:fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 0rem 3%;
+ background: #9875c3;
+ display: flex;
+ font-weight: 500;
+ justify-content: space-between;
+ align-items: center;
+ z-index: 100;
+}
+ .navbar{
+  padding: 0rem;
+  background-color: rgb(91, 64, 116);
+  width: 100;
+ }
+ .indicator::before{
+  content: "";
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    width: 525px;
+    height: 10px;
+    background: TRANSPARENT;
+    border-top-right-radius: 119px;
+    border-top-left-radius: 63px;
+    box-shadow: 1px -10px 0 #e2bb0d;
+
+ }
+ .indicator::after{
+  content: "";
+    position: absolute;
+    top: 14%;
+    left: -1px;
+    width: 525px;
+    height: 53px;
+    background: TRANSPARENT;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 5px;
+    box-shadow: 1px -10px 0 #e2bb0d;
+}
+
+ }
+  </style>
+
+
+  </head>
+  
+  
+  <body>
+    <header class="header">
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Skills</a>
+      <a href="#">Project</a>
+      <a href="#">ContactMe</a>
+      <ul><div class="indicator">
+      </div></ul>
+      
+        
+      </div>
+    </nav>
+    </header>
+
+    <img class="rounded-circle" alt="avatar2" src="img/img15.jpg">
+   
+  </body>
+  
+
+</html>
